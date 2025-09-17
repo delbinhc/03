@@ -1,0 +1,41 @@
+{
+  "name": "airdrop-finder-backend",
+  "version": "1.0.0",
+  "description": "Backend API para Airdrop Finder",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "jest",
+    "seed": "ts-node data/seed.ts",
+    "railway:build": "npm run build",
+    "railway:start": "npm run start"
+  },
+  "dependencies": {
+    "axios": "^1.12.2",
+    "cheerio": "^1.1.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.15.0",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.10.0",
+    "helmet": "^7.0.0",
+    "mongoose": "^7.5.0",
+    "node-cron": "^3.0.2",
+    "puppeteer": "^21.11.0",
+    "redis": "^4.7.1",
+    "web3": "^4.1.0",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/jest": "^29.5.4",
+    "@types/node": "^20.19.16",
+    "@types/node-cron": "^3.0.8",
+    "jest": "^29.6.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.1.6"
+  }
+}
