@@ -2,7 +2,6 @@
 
 RD,#group#
 
-CANALES LOCALES,#genre#
 SiTV 1,http://190.122.104.210:5080/LiveApp/streams/sitv2.m3u8
 Teleantillas 2,http://45.5.116.178:8000/play/a01d/index.m3u8
 CDN 3,http://190.122.104.210:5080/LiveApp/streams/cdnlocal.m3u8
@@ -17,4 +16,5 @@ TELESISTEMA 11,http://45.5.116.178:8000/play/a01f/index.m3u8
 Teleunion 12,http://190.122.104.210:5080/LiveApp/streams/tunion.m3u8
 TELECENTRO 13,http://190.122.104.210:5080/LiveApp/streams/tcentro.m3u8
 CATORCETV 14,http://190.122.104.210:5080/LiveApp/streams/catorcetv.m3u8
+
 DIGITAL 15,http://190.122.104.210:5080/LiveApp/streams/Di15.m3u8
