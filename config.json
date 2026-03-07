@@ -1,6 +1,6 @@
 {
   "name": "Cuevana 3",
-  "url": "file:///android_asset/config.json",
+  "url": "https://raw.githubusercontent.com/delbinhc/03/refs/heads/main/config.json",
   "spider": "https://raw.githubusercontent.com/delbinhc/03/refs/heads/main/cuevana3.js",
   "sites": [
     {
@@ -19,4 +19,5 @@
   "rules": [],
   "ads": []
 }
+
 
