@@ -1,0 +1,21 @@
+{
+  "name": "Cuevana 3",
+  "url": "file:///android_asset/config.json",
+  "spider": "file:///android_asset/cuevana3.js",
+  "sites": [
+    {
+      "key": "cuevana3",
+      "name": "Cuevana 3",
+      "type": 3,
+      "api": "file:///android_asset/cuevana3.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    }
+  ],
+  "parses": [],
+  "lives": [],
+  "flags": [],
+  "rules": [],
+  "ads": []
+}
